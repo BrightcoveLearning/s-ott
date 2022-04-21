@@ -16,11 +16,17 @@
     </figure>
     {% endif %}
 
+    <figure class="bcls-figure">
+      {% if site.product_short == "Beacon" %}
+      <img class="bcls-image" src="/assets/images/s-ott-plugins-img/Beacon-logo.png" alt="">
+      {% elsif site.product_short == "CorpTV" %}
+      <img class="bcls-image" src="/assets/images/s-ott-plugins-img/CorpTV-logo.png" alt="">
+      {% endif %}
+    </figure>
 
     <figure class="bcls-figure">
       <img class="bcls-image" src="/assets/images/s-ott-plugins-img/{{ site.product_short }}-logo.png" alt="">
     </figure>
-
 
     <aside class="bcls-aside bcls-aside--information language-editable">This document is one part of the OTT Plugins document collection. Since OTT Plugins are implemented using JavaScript and CSS, the target audience for this document is developers with some experience with both of those technologies. To learn more about OTT Plugins see the <a href="/ott-plugins/index.html">OTT Plugins documentation home page</a>.</aside>
     <h2 id="Introduction">Introduction</h2>
